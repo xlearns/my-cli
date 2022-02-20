@@ -1,7 +1,12 @@
-# cli
+# [cli](https://juejin.cn/post/6966119324478079007)
 - 脚手架属于node项目
+
+
 ## 变成npm项目
 - npm init -y
+## 将脚手架变成全局
+- `npm link ` or `npm install -g`
+- 注意如果是全局一定要在文件前面加上`#!/usr/bin/env node` 强制变成node否则会报错
 
 # 插件
 ## [commander](https://www.npmjs.com/package/commander)

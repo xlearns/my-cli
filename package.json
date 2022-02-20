@@ -2,10 +2,8 @@
   "name": "my-cli",
   "version": "1.0.0",
   "description": "- 下载git厂库 clone模板",
-  "bin": {
-    "my-cli": "bin/index.js"
-  },
-  "main": "index.js",
+  "bin": "bin/index.js",
+  "main": "bin/index.js",
   "scripts": {
     "start": "npm link"
   },
